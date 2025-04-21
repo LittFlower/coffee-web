@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Shop WebUI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>☕ Coffee Shop Management ☕</h1>
+
+        <!-- 产品目录 -->
+        <section class="catalog-section">
+            <h2>Product Catalog</h2>
+            <div id="catalog" class="grid-view"></div>
+        </section>
+
+        <!-- 订单操作 -->
+        <section class="order-section">
+            <h2>Current Order</h2>
+            <div id="order-items"></div>
+            <div class="order-total">
+                Total: $<span id="order-total">0.00</span>
+            </div>
+            <button onclick="completeSale()" class="btn-primary">Complete Sale</button>
+        </section>
+
+        <!-- 添加商品 -->
+        <section class="add-item-section">
+            <h2>Add Product</h2>
+            <input type="text" id="product-code" placeholder="Product Code">
+            <input type="number" id="quantity" placeholder="Qty" min="1" value="1">
+            <button onclick="addToOrder()" class="btn-action">Add to Order</button>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

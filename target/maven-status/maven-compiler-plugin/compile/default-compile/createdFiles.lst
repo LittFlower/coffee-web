@@ -1,0 +1,10 @@
+com/example/coffee/cli/CoffeeBrewer.class
+com/example/coffee/cli/Catalog.class
+com/example/coffee/cli/Sales.class
+com/example/coffee/cli/Coffee.class
+com/example/coffee/WebMain.class
+com/example/coffee/cli/OrderItem.class
+com/example/coffee/cli/Main.class
+com/example/coffee/cli/Order.class
+com/example/coffee/cli/Accessory.class
+com/example/coffee/cli/Product.class
