@@ -31,7 +31,7 @@ A modern coffee shop management system with web interface, supporting product ca
 ### 安装运行
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/coffee-web.git
+git clone https://github.com/littflower/coffee-web.git
 cd coffee-web
 
 # 构建项目（包含依赖）
